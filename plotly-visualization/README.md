@@ -10,6 +10,11 @@ Plotly.js based on Built on top of **d3.js** and **stack.gl** or **WebGL**
 
 Plotly based on Json makes it adaptable
 
+## Chart/Graph components
+- Trace
+- Layout
+- Chart/Graph Category
+
 ## Comparison between different data dashboarding technologies
 ![dashboard-technologies-comparison](assets/dashboard-technologies-comparison.png)
 
