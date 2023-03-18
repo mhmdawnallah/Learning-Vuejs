@@ -13,6 +13,7 @@ My journey of learning Vue js in 2-3 days time frame
 - **Filters**: functions that can be used to transform data in the template, such as formatting dates or filtering lists.
 - **Mixins**: reusable code snippets that can be shared across multiple components, and can include data, methods, computed properties, and more.
 - **Interpolation and Data Binding**: Interploate and data bind data properties from vue js app into HTML 
+- **Two Way Binding**: Data Binding + Event Binding e.g: using `v-model`
 
 ## Reactive vs Non-Reactive Frontend
 - Reactive Frontend (Declartive Approach):
