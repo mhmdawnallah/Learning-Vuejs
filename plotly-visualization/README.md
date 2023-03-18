@@ -7,4 +7,5 @@ Plotly Components:
 
 
 ## Additional Resources
+[The only resource you need to compare multiple data dashboarding solutions](https://www.datarevenue.com/en-blog/data-dashboarding-streamlit-vs-dash-vs-shiny-vs-voila)
 [Plotly js documentation](https://plotly.com/javascript)
