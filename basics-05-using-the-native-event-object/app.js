@@ -2,8 +2,17 @@ const app = Vue.createApp({
   data() {
     return {
       counter: 0,
-      name: ''
+      name: "",
+      lastName: ""
     };
+  },
+  watch: {
+    counter(countValue) {
+      if (countValue === 50) {
+        this.name = "";
+      }
+    }
+
   },
   computed: {
     fullName() {
