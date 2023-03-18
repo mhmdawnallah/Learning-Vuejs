@@ -5,8 +5,18 @@ const app = Vue.createApp({
       name: ''
     };
   },
+  computed: {
+    fullName() {
+      console.log("Called at getFullName Function");
+      if (this.name === "") {
+        return "";
+      }
+      return this.name + " " + "Awnallah";
+    }
+  },
   methods: {
     resetName() {
+      console.log("Called at resetName Function")
       this.name = ""
     },
     setName(event, lastName) {
