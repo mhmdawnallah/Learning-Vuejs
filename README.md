@@ -13,6 +13,14 @@ My journey of learning Vue js in 2-3 days time frame
 - **Filters**: functions that can be used to transform data in the template, such as formatting dates or filtering lists.
 - **Mixins**: reusable code snippets that can be shared across multiple components, and can include data, methods, computed properties, and more.
 
+## Reactive vs Non-Reactive Frontend
+- Reactive Frontend:
+A reactive frontend is built using a reactive framework, such as Vue.js, React, or Angular. In a reactive frontend, the UI is bound to the data and is automatically updated when the data changes. This means that when the user interacts with the UI, such as by clicking a button or typing in a form, the changes are immediately reflected in the underlying data and the UI is updated accordingly. This makes it easier to build complex and dynamic user interfaces, and can improve the performance and responsiveness of the application.
+
+- Non-Reactive Frontend:
+A non-reactive frontend is built using traditional HTML, CSS, and JavaScript without a reactive framework. In a non-reactive frontend, the UI and the data are not directly connected, and the UI must be manually updated whenever the data changes. This means that when the user interacts with the UI, such as by clicking a button or typing in a form, the changes are not automatically reflected in the underlying data and the UI must be manually updated. This can make it more difficult to build complex and dynamic user interfaces, and can result in slower performance and less responsive applications.
+
+In summary, a reactive frontend is designed to automatically update the UI in response to changes in the data, while a non-reactive frontend requires manual updates to keep the UI in sync with the data. Reactive frameworks can simplify the development of complex user interfaces and improve performance and responsiveness.
 
 ## Additional Resources
 [Vue js documentation](https://vuejs.org/guide/introduction.html)
