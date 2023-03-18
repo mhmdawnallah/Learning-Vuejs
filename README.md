@@ -1,6 +1,6 @@
 My journey of learning Vue js in 2-3 days time frame
 
-Important concepts to know in Vue js:
+## Important concepts in Vue js:
 - **Vue Instance**: the main Vue object that represents an application, and contains data, methods, computed properties, and more.
 - **Template**: the HTML-based syntax used to define the structure and content of Vue components
 - **Props**: custom attributes that can be passed to a component to configure its behavior and data.
@@ -13,3 +13,6 @@ Important concepts to know in Vue js:
 - **Filters**: functions that can be used to transform data in the template, such as formatting dates or filtering lists.
 - **Mixins**: reusable code snippets that can be shared across multiple components, and can include data, methods, computed properties, and more.
 
+
+## Additional Resources
+[Vue js documentation](https://vuejs.org/guide/introduction.html)
