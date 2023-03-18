@@ -12,7 +12,7 @@ My journey of learning Vue js in 2-3 days time frame
 - **Events**: a system for communication between components, where a child component can emit an event that the parent component can listen for and respond to.
 - **Filters**: functions that can be used to transform data in the template, such as formatting dates or filtering lists.
 - **Mixins**: reusable code snippets that can be shared across multiple components, and can include data, methods, computed properties, and more.
-- **Interpolation**: Interploate data properties from vue js app into HTML 
+- **Interpolation and Data Binding**: Interploate and data bind data properties from vue js app into HTML 
 
 ## Reactive vs Non-Reactive Frontend
 - Reactive Frontend (Declartive Approach):
