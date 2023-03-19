@@ -42,5 +42,12 @@ Client-side processing involves executing the application logic in the client's 
 - **Server Side Processing**
 Server-side processing refers to the process of generating HTML content on the server before sending it to the client's browser. In this approach, the server takes care of rendering the initial view of the application and sends it to the client, which then renders the view in the browser. With server-side processing, the server is responsible executing the application logic, retreiving data from databases or external services, and generating the HTML markup that is sent to the client.
 
+## Single Page vs Multi-page Application
+- **Single Page Application**
+In a Single Page Application, all of the content is loaded on a single HTML page at the start, and then the application dynamically updates the content of that page as the user interacts with it, without the need for a full page reload, the initial page load typically include all the necessary Javascript, CSS, and HTMl code, and subsequent interactions with the application are handled by making asynchronous requests to the server for data and updating the page dynamically based on response. That means from the user prospective it appears as though they are navigating through different pages of content, even though the content is all part of a single HTML page. This provides a more seamless and responsive user experience particularly for modern web applications that require real-time updates and interactivity which makes it fast.
+
+- **Multi-page Application**
+In contrast, a Multi-page Application, each user interaction typically results in a request to the server for a new HTML page to be loaded. This can result in slower and less responsive user experiences, particularly for applications that require frequent updates.
+
 ## Additional Resources
 [Vue js documentation](https://vuejs.org/guide/introduction.html)
