@@ -38,13 +38,17 @@
       </section>
       <section id="controls">
         <button :disabled="winner" @click="attackMonster">ATTACK</button>
-        <button :disabled="couldUseSpecialAttack || winner" @click="specialAttackMonster">SPECIAL ATTACK</button>
+        <button :disabled="couldUseSpecialAttack" @click="specialAttackMonster">SPECIAL ATTACK</button>
         <button :disabled="winner" @click="healPlayer">HEAL</button>
         <button :disabled="winner" @click="surrender">SURRENDER</button>
       </section>
       <section id="log" class="container">
         <h2>Battle Log</h2>
-        <ul></ul>
+        <ul>
+          <li v-for="logMessage in logMessages">
+            {{ logMessage.actionBy }} - {{ logMessage.actionType }} - {{ logMessage.actionValue }}
+          </li>
+        </ul>
       </section>
     </div>
   </body>
