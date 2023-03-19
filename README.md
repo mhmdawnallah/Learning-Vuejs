@@ -16,6 +16,7 @@ My journey of learning Vue js in 2-3 days time frame
 - **Interpolation and Data Binding**: Interploate and data bind data properties from vue js app into HTML 
 - **Two Way Binding**: Data Binding + Event Binding e.g: using `v-model`
 - **Rendering Conditional Contents & Lists**: v-if, v-else-if, v-else (Remove and add element from the DOM which costs performance), v-show (Hide and show element from the DOM so it is performance optimized)
+- **Vue Js components**: In Vue.js, a component is **a self-contained**, **reusable piece of code that encapsulates HTML, CSS, and JavaScript logic**. Components can be thought of as building blocks that make up a Vue.js application.
 
 ## Reactive vs Non-Reactive Frontend
 - **Reactive Frontend (Declartive Approach)**:
