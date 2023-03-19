@@ -26,6 +26,10 @@ A non-reactive frontend is built using traditional HTML, CSS, and JavaScript wit
 
 In summary, a reactive frontend is designed to automatically update the UI in response to changes in the data, while a non-reactive frontend requires manual updates to keep the UI in sync with the data. Reactive frameworks can simplify the development of complex user interfaces and improve performance and responsiveness.
 
+## Vue Js Behind the scenes
+- **Proxies**: Vue js wrapping your properties with a javascript feature called Proxies to be notified whenever the value's tracked is changes that makes the Vue Js reactive over the vanilla javascript which is non-reactive.
+
+
 ## Client Side Processing vs Server Side Processing
 - Client Side Processing
 Client-side processing involves executing the application logic in the client's browser using Javascript. In this approach, the server sends the raw data to theclient, which then manipulates it and renders it in the browser. In client-side processing, the server is only responsible providing data to the client, and the actual rendering of the HTML markup is done on the client's browser.
