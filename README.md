@@ -32,6 +32,7 @@ In summary, a reactive frontend is designed to automatically update the UI in re
 - **View Controlled Template**: When you mount vue js app to specific html element everything inside this element is considered a template.
 - **Vue Instance Lifecycle**: Starting from the app before being created.
 - **Virtual DOM**: Related to the concept of Virtualization in Operating System.
+- **Event Driven Architecture**: It's all about Events
 
 ## Client Side Processing vs Server Side Processing
 - Client Side Processing
