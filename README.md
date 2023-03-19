@@ -36,10 +36,10 @@ In summary, a reactive frontend is designed to automatically update the UI in re
 - **Event Driven Architecture**: It's all about Events
 
 ## Client Side Processing vs Server Side Processing
-- Client Side Processing
+- **Client Side Processing**
 Client-side processing involves executing the application logic in the client's browser using Javascript. In this approach, the server sends the raw data to theclient, which then manipulates it and renders it in the browser. In client-side processing, the server is only responsible providing data to the client, and the actual rendering of the HTML markup is done on the client's browser.
 
-- Server Side Processing
+- **Server Side Processing**
 Server-side processing refers to the process of generating HTML content on the server before sending it to the client's browser. In this approach, the server takes care of rendering the initial view of the application and sends it to the client, which then renders the view in the browser. With server-side processing, the server is responsible executing the application logic, retreiving data from databases or external services, and generating the HTML markup that is sent to the client.
 
 ## Additional Resources
