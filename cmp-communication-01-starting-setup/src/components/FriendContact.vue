@@ -47,6 +47,9 @@ export default {
       default: false
     }
   },
+  emits: [
+    'toggle-favorite'
+  ],
   data() {
     return {
       detailsAreVisible: false
