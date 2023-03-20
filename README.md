@@ -32,7 +32,7 @@ In summary, a reactive frontend is designed to automatically update the UI in re
 - **Seperation of Concerns**: You could create multiple Vue apps in the same app while each part control specific component in the web app and remains seperated
 - **View Controlled Template**: When you mount vue js app to specific html element everything inside this element is considered a template.
 - **Vue Instance Lifecycle**: Starting from the app before being created. This has the same relation to **Process Lifecycle** in Operating System in general.
-- **Virtual DOM**: Related to the concept of Virtualization in Operating System.
+- **Virtual DOM**: Related to the concept of **Virtualization** in Operating System.
 - **Event Driven Architecture**: It's all about Events
 - **Don't Repeat Yourself (DRY)**: That appers in a great way in Vue js components.
 - **Unidrectional data flow && Immutability**: That apperas in props/data properties passed to comoponents which one way of communication
