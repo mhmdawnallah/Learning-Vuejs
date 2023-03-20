@@ -18,6 +18,7 @@ My journey of learning Vue js in 2-3 days time frame
 - **Two Way Binding**: Data Binding + Event Binding e.g: using `v-model`
 - **Rendering Conditional Contents & Lists**: v-if, v-else-if, v-else (Remove and add element from the DOM which costs performance), v-show (Hide and show element from the DOM so it is performance optimized)
 - **Vue Js components**: In Vue.js, a component is **a self-contained**, **reusable piece of code that encapsulates HTML, CSS, and JavaScript logic**. Components can be thought of as building blocks that make up a Vue.js application.
+- **Provide and Inject**: Providing and injecting data from parent to child.
 
 ## Reactive vs Non-Reactive Frontend
 - **Reactive Frontend (Declartive Approach)**:
@@ -38,6 +39,7 @@ In summary, a reactive frontend is designed to automatically update the UI in re
 - **Don't Repeat Yourself (DRY)**: That appers in a great way in Vue js components.
 - **Unidrectional data flow && Immutability**: That apperas in props/data properties passed to comoponents which one way of communication
 - **Pointers**: Pointers are used heavily in Vue js which is the normal case like any other programming language.
+- **Dependency Injection && Dependency Inversion Design Pattern**: DDI && DDV is used heavily in Vue js API where `provide and inject` feature shines.
 
 ## Client Side Processing vs Server Side Processing
 - **Client Side Processing**
