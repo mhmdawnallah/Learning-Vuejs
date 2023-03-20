@@ -20,6 +20,7 @@ My journey of learning Vue js in 2-3 days time frame
 - **Vue Js components**: In Vue.js, a component is **a self-contained**, **reusable piece of code that encapsulates HTML, CSS, and JavaScript logic**. Components can be thought of as building blocks that make up a Vue.js application.
 - **Provide and Inject**: Providing and injecting data from parent to child. It's prefered for funnel of communication channels.
 - **Global vs Local Components**: You need to be aware when to use Global components because Vue js loads them all which could impact performance.
+- **Slots**: Slots allow us to receive HTML content from outside the container e.g: as a Wrapper.
 
 ## Reactive vs Non-Reactive Frontend
 - **Reactive Frontend (Declartive Approach)**:
