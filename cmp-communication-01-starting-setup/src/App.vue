@@ -5,20 +5,12 @@
     </header>
     <ul>
       <friend-contact
-        name="Mohamed Awnallah"
-        phone-number="01234 567 890"
-        email-address="mohamedawnallah@localhost.com"
-        is-favorite=true
-      ></friend-contact>
-      <friend-contact
-        name="Ahmed Khaled"
-        phone-number="1234 567 8910"
-        email-address="ahmedkhaled@localhost.com"
-      ></friend-contact>
-      <friend-contact
-        name="Manual John"
-        phone-number="1234 567 8920"
-        email-address="manueljohn@localhost.com"
+        v-for="friend in friends"
+        :key="friend.id"
+        :name="friend.name"
+        :phone-number="friend.phone"
+        :email-address="friend.email"
+        :is-favorite="true"
       ></friend-contact>
     </ul>
   </section>
@@ -30,7 +22,20 @@ export default {
   },
   data() {
     return {
-      
+      friends: [
+        {
+          id: "mohamed",
+          name: "Mohamed Awnallah",
+          phone: "0123 45678 910",
+          email: "mohamedawnallah@localhost.com"
+        },
+        {
+          id: "ahmed",
+          name: "Ahmed Khaled",
+          phone: "1234 5678 91011",
+          email: "ahmedkhaled@localhost.com"
+        }
+      ]
     };
   },
 };
