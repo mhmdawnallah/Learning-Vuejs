@@ -4,10 +4,11 @@
       <h1>My Friends</h1>
     </header>
     <ul>
-      <friend-contact 
+      <friend-contact
         name="Mohamed Awnallah"
         phone-number="01234 567 890"
         email-address="mohamedawnallah@localhost.com"
+        is-favorite=true
       ></friend-contact>
       <friend-contact
         name="Ahmed Khaled"

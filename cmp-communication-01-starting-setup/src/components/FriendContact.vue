@@ -10,18 +10,36 @@
       <li>
         <strong>Email:</strong>
         {{ emailAddress }}
-      </li>s
+      </li>
+      <li>
+        <strong>Is your Favorite Friend:</strong>
+        {{ isFavorite }}
+      </li>
     </ul>
   </li>
 </template>
 
 <script>
 export default {
-  props: [
-    'name',
-    'phoneNumber',
-    'emailAddress'
-  ],
+  props: {
+    name: {
+      type: String,
+      required: true,
+    },
+    phoneNumber: {
+      type: String,
+      required: true
+    },
+    emailAddress: {
+      type: String,
+      required: true
+    },
+    isFavorite: {
+      type: Boolean,
+      required: false,
+      default: false
+    }
+  },
   data() {
     return {
       detailsAreVisible: false
