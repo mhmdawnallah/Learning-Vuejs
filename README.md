@@ -36,7 +36,7 @@ In summary, a reactive frontend is designed to automatically update the UI in re
 - **Event Driven Architecture**: It's all about Events
 - **Don't Repeat Yourself (DRY)**: That appers in a great way in Vue js components.
 - **Unidrectional data flow && Immutability**: That apperas in props/data properties passed to comoponents which one way of communication
-
+- **Pointers**: Pointers are used heavily in Vue js which is the normal case like any other programming language.
 
 ## Client Side Processing vs Server Side Processing
 - **Client Side Processing**
