@@ -28,7 +28,7 @@ A non-reactive frontend is built using traditional HTML, CSS, and JavaScript wit
 In summary, a reactive frontend is designed to automatically update the UI in response to changes in the data, while a non-reactive frontend requires manual updates to keep the UI in sync with the data. Reactive frameworks can simplify the development of complex user interfaces and improve performance and responsiveness.
 
 ## Vue Js Behind the scenes
-- **Proxies**: Vue js wrapping your properties with a javascript feature called Proxies to be notified whenever the value's tracked is changes that makes the Vue Js reactive over the vanilla javascript which is non-reactive.
+- **Proxies**: Vue js wrapping your properties with a javascript feature called Proxies to be notified whenever the value's tracked is changes that makes the Vue Js reactive over the vanilla javascript which is non-reactive. This is related to **Proxy Design Pattern**.
 - **Seperation of Concerns**: You could create multiple Vue apps in the same app while each part control specific component in the web app and remains seperated
 - **View Controlled Template**: When you mount vue js app to specific html element everything inside this element is considered a template.
 - **Vue Instance Lifecycle**: Starting from the app before being created. This has the same relation to **Process Lifecycle** in Operating System in general.
