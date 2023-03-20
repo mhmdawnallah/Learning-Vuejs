@@ -19,7 +19,7 @@ My journey of learning Vue js in 2-3 days time frame
 - **Rendering Conditional Contents & Lists**: v-if, v-else-if, v-else (Remove and add element from the DOM which costs performance), v-show (Hide and show element from the DOM so it is performance optimized)
 - **Vue Js components**: In Vue.js, a component is **a self-contained**, **reusable piece of code that encapsulates HTML, CSS, and JavaScript logic**. Components can be thought of as building blocks that make up a Vue.js application.
 - **Provide and Inject**: Providing and injecting data from parent to child. It's prefered for funnel of communication channels.
-- **Global vs Local Components**
+- **Global vs Local Components**: You need to be aware when to use Global components because Vue js loads them all which could impact performance.
 
 ## Reactive vs Non-Reactive Frontend
 - **Reactive Frontend (Declartive Approach)**:
