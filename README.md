@@ -18,7 +18,7 @@ My journey of learning Vue js in 2-3 days time frame
 - **Two Way Binding**: Data Binding + Event Binding e.g: using `v-model`
 - **Rendering Conditional Contents & Lists**: v-if, v-else-if, v-else (Remove and add element from the DOM which costs performance), v-show (Hide and show element from the DOM so it is performance optimized)
 - **Vue Js components**: In Vue.js, a component is **a self-contained**, **reusable piece of code that encapsulates HTML, CSS, and JavaScript logic**. Components can be thought of as building blocks that make up a Vue.js application.
-- **Provide and Inject**: Providing and injecting data from parent to child.
+- **Provide and Inject**: Providing and injecting data from parent to child. It's prefered for funnel of communication channels.
 
 ## Reactive vs Non-Reactive Frontend
 - **Reactive Frontend (Declartive Approach)**:
