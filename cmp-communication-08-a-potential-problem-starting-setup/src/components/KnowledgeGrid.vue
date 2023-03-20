@@ -6,14 +6,13 @@
       :id="topic.id"
       :topic-name="topic.title"
       :description="topic.description"
-      @select-topic="$emit('select-topic', $event)"
+      @select-topic="selectTopic"
     ></knowledge-element>
   </ul>
 </template>
 
 <script>
 export default {
-  inject: ['topics'],
-  emits: ['select-topic']
+  inject: ['topics', 'selectTopic']
 };
 </script>
