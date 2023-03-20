@@ -4,9 +4,13 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './comp onents/HelloWorld.vue'
 
 export default {
+  methods: {
+  },
+  props: {
+  },
   name: 'App',
   components: {
     HelloWorld
