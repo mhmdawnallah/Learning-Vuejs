@@ -3,7 +3,7 @@ My journey of learning Vue js in 2-3 days time frame
 ## Important concepts in Vue js:
 - **Vue Instance**: the main Vue object that represents an application, and contains data, methods, computed properties, and more.
 - **Template**: the HTML-based syntax used to define the structure and content of Vue components
-- **Props**: custom attributes that can be passed to a component to configure its behavior and data. They are also used for what's called **Parent Child Communication**
+- **Props**: custom attributes that can be passed to a component to configure its behavior and data. They are also used for what's called **Parent Child Communication** In addition to that they are **Immutable**.
 - **Data**: the reactive state of a Vue component that updates the view when changed. Computed Properties: cached properties that are computed from the component's data, and can be used to reduce code duplication and improve performance.
 - **Methods**: Used with event binding or data binding. functions that can be called from the template or other methods, and can modify the component's data or trigger other functionality.
 - **Watchers**: Not used directly in Templates. functions that watch for changes in the component's data, and can perform additional logic or side effects when a change occurs.
@@ -34,6 +34,9 @@ In summary, a reactive frontend is designed to automatically update the UI in re
 - **Vue Instance Lifecycle**: Starting from the app before being created. This has the same relation to **Process Lifecycle** in Operating System in general.
 - **Virtual DOM**: Related to the concept of Virtualization in Operating System.
 - **Event Driven Architecture**: It's all about Events
+- **Don't Repeat Yourself (DRY)**: That appers in a great way in Vue js components.
+- **Unidrectional data flow && Immutability**: That apperas in props/data properties passed to comoponents which one way of communication
+
 
 ## Client Side Processing vs Server Side Processing
 - **Client Side Processing**
