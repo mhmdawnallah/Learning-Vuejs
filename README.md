@@ -38,10 +38,11 @@ In summary, a reactive frontend is designed to automatically update the UI in re
 - **Vue Instance Lifecycle**: Starting from the app before being created. This has the same relation to **Process Lifecycle** in Operating System in general.
 - **Virtual DOM**: Related to the concept of **Virtualization** in Operating System.
 - **Event Driven Architecture**: It's all about Events and Event Handlers.
-- **Don't Repeat Yourself (DRY)**: That appers in a great way in Vue js components.
+- **Don't Repeat Yourself (DRY)**: That appers in a great way in Vue js components && Mixins.
 - **Unidrectional data flow && Immutability**: That apperas in props/data properties passed to comoponents which one way of communication
 - **Pointers**: Pointers are used heavily in Vue js which is the normal case like any other programming language.
 - **Dependency Injection && Dependency Inversion Design Pattern**: DDI && DDV is used heavily in Vue js API where `provide and inject` feature shines.
+- **State Management System**
 
 ## Client Side Processing vs Server Side Processing
 - **Client Side Processing**
